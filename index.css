@@ -20,3 +20,6 @@ ul> li{
 	margin:4px;
 	width:300px;
 }
+li { 
+	cursor: pointer; 
+}

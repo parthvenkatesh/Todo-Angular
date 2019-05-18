@@ -36,12 +36,12 @@ module.controller('ctrl', function($scope,$window) {
 		entry.onclick=function(){
 			if($scope.mymap.get(this)==0){
 				this.style.background='limeGreen';
-				$scope.mymap.set(entry,0)
+				$scope.mymap.set(entry,1)
 				$scope.li.push(this)
 			}
 			else{
 				this.style.background='pink';
-				$scope.mymap.set(entry,1)
+				$scope.mymap.set(entry,0)
 				$scope.li.splice($scope.li.indexOf(this),1)
 			}
 		}
