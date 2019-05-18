@@ -56,8 +56,6 @@ module.controller('ctrl', function($scope,$window) {
 			console.log('Empty')
 			return
 			}
-		//$scope.reminders = JSON.parse(x);
-		//console.log($scope.reminders)
 		localStorage.setItem("current_reminders", JSON.stringify([]))
 		for(let i=0;i<x.length;i++){
 			$scope.save(x[i])
