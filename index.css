@@ -4,14 +4,14 @@ body{
 
 #main {
 	margin:auto;
-	width:80%;
+	width:60%;
 }
 
 
 li{
 	border:1px solid black;
 	margin:4px;
-	width:300px;
+	width:250px;
 	overflow:auto;
 	cursor: pointer; 
 }
