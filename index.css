@@ -9,18 +9,12 @@ body{
 	transform: translate(-50%,-50%);
 }
 
-#list{
-	width:300px;
-	white-space: nowrap;
 
-}
-
-ul> li{
+li{
 	border:1px solid black;
 	margin:4px;
 	width:300px;
 	overflow:auto;
-}
-li { 
 	cursor: pointer; 
 }
+
